@@ -11,6 +11,9 @@
     <!-- Le styles -->
     <link href="bootstrap.css" rel="stylesheet">
     <link href="bootstrap-responsive.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <style>
 
     /* GLOBAL STYLES
@@ -318,32 +321,40 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container">
 
-      <h2>Contacto  </h2>
-
-      <legend></legend>
-
-      <!-- START THE FEATURETTES -->
-
-      <div class="featurette">
-        
-        <!--<img class="featurette-image pull-right" src="http://getbootstrap.com/2.3.2/assets/img/examples/browser-icon-chrome.png">  -->
-
-        <h5 class="">Aqui podemos contestarte. <span class="muted"> </span></h5>
-        <p class="lead"> </p>
+      <div class="row">
+        <h2>Contacto </h2>
       </div>
 
-      <hr class="featurette-divider">
+      <div class="row">
+        <legend></legend>
+      </div>
 
-      <!-- /END THE FEATURETTES -->
+      <div class="row">
+        <div class="col-md-12">
+          <form action="">
+            <p class="lead">Nombre</p>
+            <input type="text" class="form-control">
+            
+            <p>Correo electronico:</p>
+            <input type="email" name="email" id="email" required placeholder="JohnDoe@gmail.com" class="form-control required email">
+            
+          
+            <p>Mensaje:</p>
+            <textarea name="message" id="message" cols="100" rows="6" required  class="required" ></textarea>
+          </form>
+        </div>
+      </div>
 
-
+      <div class="row">
+        
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="index.html">Inicio</a></p>
         <p> UABC 2015 &middot; <a href="#">Privacidad</a> &middot; </p>
       </footer>
+      </div>
 
     </div><!-- /.container -->
 
