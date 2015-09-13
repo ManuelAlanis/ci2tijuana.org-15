@@ -4,3 +4,7 @@ p.privacidad{
 .justificado{
 	text-align: justify;
 }
+.centrado{
+	text-align: center;
+	margin: 0 auto;
+}
