@@ -1,14 +1,17 @@
 p.privacidad{
 	text-align: justify;
 }
-<<<<<<< HEAD
 .justificado{
 	text-align: justify;
 }
 .centrado{
 	text-align: center;
 	margin: 0 auto;
-=======
+}
+.img-galeria a img {
+	margin: 2px;
+}
+
 
 .modal-dialog {}
 .thumbnail {margin-bottom:6px;}
@@ -17,5 +20,5 @@ p.privacidad{
   background-image:none;
   margin-top:10%;
   width:5%;
->>>>>>> 9f5f29492eb75e7e04de2962e4aae312c0e7ff58
+
 }
