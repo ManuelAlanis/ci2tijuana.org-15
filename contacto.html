@@ -19,10 +19,9 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
     <script>
-    
+    $(document).getElementById('submit').click(function() {
 
-    function Correo (argument) {
-      $.ajax({
+    $.ajax({
         url: 'php/contacto.php',
         type: 'GET',
         dataType: 'JSON',
@@ -33,7 +32,6 @@
                         alert("BAD");
                 }
         }); 
-    }
     </script>
     <style>
     #hea{
@@ -101,7 +99,7 @@
     <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-md-9">
-        <form id="contact_form" class="" action="correo();" method="post" name="contact_form" target="">  
+        <form id="contact_form" class="" action="php/contacto.php" method="post" name="contact_form" target="">  
         <ul>
           
             <span>Nombre:</span>
