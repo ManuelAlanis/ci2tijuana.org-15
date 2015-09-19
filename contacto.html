@@ -18,21 +18,6 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
-    <script>
-    $(document).getElementById('submit').click(function() {
-
-    $.ajax({
-        url: 'php/contacto.php',
-        type: 'GET',
-        dataType: 'JSON',
-        success: function(response) {
-                        alert("GOOD");
-                },
-                error: function() {
-                        alert("BAD");
-                }
-        }); 
-    </script>
     <style>
     #hea{
       height: 100px;
@@ -99,7 +84,7 @@
     <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-md-9">
-        <form id="contact_form" class="" action="" method="post" name="contact_form" target="">  
+        <form id="contact_form" class="" action="php/contacto.php" method="post" name="contact_form" target="">  
         <ul>
           
             <span>Nombre:</span>

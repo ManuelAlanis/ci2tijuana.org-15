@@ -33,15 +33,14 @@ $Body .= "\n";
 $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
-if ($success)
-{
-    $result = array('success' => true);
+if ($success){
+ header("Location: http://ci2tijuana.org/cotacto.html");
+  // echo "Succes";
 }
-else
-{
-    $result = array('success' => false, 'message' => 'Something happened');
-    header($_SERVER['SERVER_PROTOCOL'] . ' 500 Internal Server Error', true, 500);
+else{
+  echo "Error";
 }
-  echo json_encode($result);
+
+
 
 ?>
