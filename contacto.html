@@ -18,6 +18,23 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+    <script>
+    jQuery(document).ready(function() {
+
+    $.ajax({
+        url: 'php/contacto.php',
+        type: 'GET',
+        dataType: 'JSON',
+        success: function(response) {
+                        alert("GOOD");
+                },
+                error: function() {
+                        alert("BAD");
+                }
+        });
+
+    }); 
+    </script>
     <style>
     #hea{
       height: 100px;
@@ -83,9 +100,8 @@
       <legend></legend>
     <!-- Three columns of text below the carousel -->
       <div class="row">
-        <iframe src="" id="enviado" name="enviado" frameborder="0"></iframe>
         <div class="col-md-9">
-        <form id="contact_form" class="" action="php/contacto.php" method="post" name="contact_form" target="enviado">  
+        <form id="contact_form" class="" action="php/contacto.php" method="post" name="contact_form" target="">  
         <ul>
           
             <span>Nombre:</span>
