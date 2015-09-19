@@ -15,6 +15,15 @@
 	margin: 2px;
 }
 
+.icono{
+	font-size: 100px;
+}
+
+.lista-actividades{
+	list-style: none;
+
+}
+
 .justificado{
 	text-align: justify;
 }
