@@ -15,12 +15,20 @@
 	margin: 0 auto;
 }
 
+
+.descarga-extenso{
+	display: inline-block;
+}
 .img-galeria a img {
 	margin: 2px;
 }
 
 .icono{
 	font-size: 90px;
+}
+
+.icono-extenso{
+	font-size: 20px;
 }
 
 .lista-actividades{
