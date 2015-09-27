@@ -10,16 +10,16 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Hospedaje | CI2T</title>
+    <title>Actividades | CI2T</title>
 
 
     <!-- Costos CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="congreso.css">
+    <link rel="stylesheet" href="css/style_pricebox.css">
 
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/social-buttons.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -58,13 +58,13 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="">Actividades</a></li>
+                <li class="active"><a href="actividades.html">Actividades</a></li>
                 <li><a href="programa.html">Programa</a></li>
-                <li><a href="#contact">Sede</a></li>
-                <li><a href="#contact">Costos</a></li>
+                <li><a href="sede.html">Sede</a></li>
+                <li><a href="costos.html">Costos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
-                <li class="active"><a href="galeria.html">CI2T 41</a></li>
-                <li><a target="_blank"href="http://fcqi.tij.uabc.mx/usuarios/revistaaristas/"><img class="img-responsive" src="img/arista.png" alt="Revista Aristas" height="19" width="22"></a></li>
+                <li><a href="galeria.html">CI2T 41</a></li>
+                <li><a alt="Revista Aristas" target="_blank"href="http://fcqi.tij.uabc.mx/usuarios/revistaaristas/"><img class="img-responsive" src="img/arista.png"  height="19" width="22"></a></li>
               </ul>
             </div>
           </div>
@@ -80,35 +80,111 @@
       <br>
       <br>
       <br>
+      <br>
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
     <div class="container marketing">
-      <h3>Hospedaje</h3>
+      <br>
+      <h3>Actividades</h3>
       <legend></legend>
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-      
-      <div class="col-md-6">
-      <div class="row">
-        <img src="img/fiesta.png" alt="" class="img-responsive centrado">  
-      </div>
-      </div>
-      <div class="col-md-6">
+    
+
+      <div class="row">      
+    <section class="layer plans">
+  <section>
+    <section class="third lift plan-tier centrado" onclick="location.href='#';">
+      <h4>Opcion 1</h4>
+      <h5><span class="plan-price">
         <div class="row">
-          <img src="img/gama.png" alt="" class="img-responsive centrado">
+        <a class="img-responsive centrado"><img src="img/fiesta.png" alt="Fiesta Inn Tijuana" /></a>
         </div>
-      </div>  
-      
-      </div><!-- /.row -->
+      </span></h5>
+      <p class="early-adopter-price">Hotel Fiesta Inn</p><br>
+      <strong>891.31/mn</strong>
+      <ul>
+<li><strong></strong>Habitacion Sencilla</li>
+<li><strong>Internet</strong> Inalambrico</li>
+<li><strong>Acceso</strong> a Alberca y Gimnasio</li>
+<li>Estacionamiendo las <strong> 24 horas</strong></li>
+</ul>
+
+
+    </section>
+    <section class="third lift plan-tier centrado" onclick="location.href='#';">
+      <h4>Opcion 2</h4>
+      <h5><span class="plan-price">
+        <div class="row">
+          <a class="img-responsive centrado">
+            <img src="img/gama.png" alt="Gamma Hoteles by Fiesta Inn" /></a>
+        </div>
+      </span></h5>
+      <p class="early-adopter-price">Gamma Hoteles</p><br>
+      <strong>927.01/mn</strong>
+      <ul>
+<li>Internet de <strong>alta</strong> velocidad</li>
+<li>Estacionamiento las <strong>24</strong> horas</li>
+<li><strong>Acceso a</strong> Sauna</li>
+<li><strong>Alberca y Cuarto de Juegos</strong></li>
+</ul>
+    </section>
+
+
+    <section class="third lift plan-tier centrado" onclick="location.href='#';">
+      <h4>Opcion 3</h4>
+      <h5><span class="plan-price">
+        <div class="row">
+          <a class="img-responsive centrado"><img src="img/grand.png" alt="Grand Hotel Tijuana" /></a>
+          <!--<a href="src_docs/Cotizacion_GrandHotelTijuana.pdf" target="_blank"><img src="img/grand.png" alt="Grand Hotel Tijuana" /></a>-->
+        </div>
+      </span></h5>
+      <p class="early-adopter-price">Grand Hotel Tijuana</p><br>
+      <strong>830/mn</strong>
+      <ul>
+<li><strong>Transporte</strong> a UABC</li>
+<li><strong>Internet</strong> de alta velocidad</li>
+<li><strong>Area</strong> de Restaurante Buffet</li>
+<li>Necesario <strong>Apartar</strong> dos dias antes</li>
+</ul>
+    </section>
+    <div style="clear: both"></div>
+  </section>
+</section>
+    </div><!-- /.row -->
+    
+    <br>
+      <!-- ENDROLEEXXXX-->
+      <div class="row centrado">
+      <div class="imgs-hotel">
+        <a href="http://www.fiestainn.com/" target="_blank" class="img-responsive centrado grayscale">
+          <img src="img/fiesta.png" alt="Fiesta Inn Tijuana" /></a>
+      </div>
+      <div class="imgs-hotel">
+          <a href="http://www.gammahoteles.com/" target="_blank" class="img-responsive centrado grayscale">
+            <img src="img/gama.png" alt="Gamma Hoteles by Fiesta Inn" /></a>
+      </div> 
+      <div class="imgs-hotel">
+          <a href="http://www.grandhoteltj.com/" target="_blank" class="img-responsive centrado grayscale">
+            <img src="img/grand.png" alt="Grand Hotel Tijuana" /></a>
+          <!--<a href="src_docs/Cotizacion_GrandHotelTijuana.pdf" target="_blank"><img src="img/grand.png" alt="Grand Hotel Tijuana" /></a>-->
+      </div> 
+      </div> 
+
+
+
+    
+
+          <!-- Carousel
+    ================================================== -->
+    <div id="" class="" data-ride=""> 
+    
+    </div><!-- /.carousel -->  
 
       <hr class="featurette-divider">
 
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right">
-        <a target="_blank" href="https://twitter.com/ci2tijuana" class="sb min twitter">Twitter</a>
-        <a target="_blank" href="https://www.facebook.com/ci2tijuana" class="sb min facebook">Facebook</a>
+      <footer id="font">
+        <p class="pull-right"><a href="index.html">Ir a inicio</a></p>
         <p>&copy; CI2T &middot; <a href="privacidad.html">Privacidad</a> &middot; </p>
       </footer>
 

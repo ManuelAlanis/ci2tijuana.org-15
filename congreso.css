@@ -1,6 +1,8 @@
-
-.blanco{
-	color: white;
+#font{
+	font-size: 12px;
+}
+.actividades-ul{
+	list-style: none;
 }
 
 .carousel-control.left,.carousel-control.right{
@@ -15,25 +17,36 @@
 	margin: 0 auto;
 }
 
-
-.descarga-extenso{
-	display: inline-block;
+.costo{
+	background-color: pink;
+	height: 100px;
+	width: 100px;
 }
+
+.glyphicon {
+    font-size: 100px;
+}
+
+.grayscale{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+    filter: gray;  /* For IE 6 - 9 */
+    -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+}
+
+.grayscale:hover { 
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+}
+
 .img-galeria a img {
 	margin: 2px;
 }
 
-.icono{
-	font-size: 90px;
-}
-
-.icono-extenso{
-	font-size: 20px;
-}
-
-.lista-actividades{
-	list-style: none;
-
+.imgs-hotel {
+	display: inline-block;
+	margin: 10px;
 }
 
 .justificado{
@@ -46,5 +59,7 @@ p.privacidad{
 	text-align: justify;
 }
 
+
 .thumbnail {margin-bottom:6px;}
+
 
