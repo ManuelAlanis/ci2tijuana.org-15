@@ -43,6 +43,14 @@
     -webkit-filter: grayscale(0%);
     filter: none;
 }
+.descarga-extenso{
+	font-size: 20px;
+	display: inline-block;
+}
+.icono-extenso{
+	position: relative;
+	display: inline-block;
+}
 
 .img-galeria a img {
 	margin: 2px;
