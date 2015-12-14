@@ -106,9 +106,18 @@
       <span>Correo Electrónico:</span>
       <input  class="form-control" type='text' name='email' id='email' placeholder="Correo electrónico del primer autor">
       <span>Clave:</span>
-      <input class="form-control message" placeholder="Clave del extenso" type='text' name='asunto' id='asunto' />
+      <input class="form-control message" placeholder="Clave del extenso" type='text' name='clave' id='clave' />
       <br>
-      <input type='file' name='archivo1' id='archivo1' value="">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Recibo de pago</p>
+          <input type='file' name='archivo1' id='archivo1' value="">
+        </div>
+        <div class="col-md-6">
+          <p>Cedula del RFC</p>
+          <input type='file' name='archivo1' id='archivo1' value="">
+        </div>
+      </div>
       <br>
       <button class="btn btn-primary" type="submit"> Enviar </button>
       </form>
