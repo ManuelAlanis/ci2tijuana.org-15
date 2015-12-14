@@ -43,9 +43,9 @@ if ($bHayFicheros)
 $sTexto .= $sAdjuntos."\n\n----_Separador-de-mensajes_----\n"; 
 return(mail($sPara, $sAsunto, $sTexto, $sCabeceras)); 
 }
-
+//ci2t@uabc.edu.mx
 //cambiar aqui el email 
-if (form_mail("ci2t@uabc.edu.mx", $_POST[asunto], 
+if (form_mail("alanism@uabc.edu.mx", $_POST[asunto], 
 "Los datos introducidos en el formulario son:\n\n", $_POST[email])) 
  header( 'Location: http://ci2tijuana.org/sen.html' ) ;
 // echo "Su formulario ha sido enviado con exito"; 
