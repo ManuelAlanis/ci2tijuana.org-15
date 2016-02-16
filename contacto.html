@@ -33,6 +33,22 @@
 
     <!-- Custom styles for this template -->
     <link href="http://getbootstrap.com/examples/carousel/carousel.css" rel="stylesheet">
+    <style>
+    .btn-green{
+      background: #2b9b4f;
+      /*background: #2c7446;*/
+      color: white;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .btn-green:hover{
+      background: #2c7446;
+      /*background: #2b9b4f;*/
+      color: white;
+    }
+    </style>
+
   </head>
 <!-- NAVBAR -->
   <body>
@@ -97,7 +113,7 @@
             <span>Mensaje:</span>
             <textarea name="message" id="message" cols="100" rows="6" required  class="required form-control" ></textarea>
             <br>
-            <button type="submit" id="submit" name="submit" class="btn btn-primary ">Enviar</button>
+            <button type="submit" id="submit" name="submit" class="btn btn-green">Enviar</button>
         </ul>     
       </form>
         </div>
